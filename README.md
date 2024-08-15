@@ -1,6 +1,6 @@
 # HGT-Motif
 This Project is about finding the 3 nodes motif and 4 nodes motif structure in a IBD network structure.
-The Input Data is a csvfile which includes a adjacency matrix. This matrix use each germs's Taxon ID as the x-axis and y-axis. The value is horizontal gene transfer intensity. And the project also contain a csv dictionary which include the name and the Taxon ID of each germ.
+The Input Data is a csvfile which includes a adjacency matrix. This matrix use each germs's Taxon ID as the x-axis and y-axis. The value is horizontal gene transfer intensity. And the project also contain a csv dictionary which include the name and the Taxon ID of each germ.The matrix was devided by the ID of patient like C3001,M2039. Each patient sample have their own sample time.  
 
 This project use Python 3.11.9 and Matlab as the main language. And some libraries should be install before started.
 
@@ -39,7 +39,10 @@ nodes and 4 nodes motif.
 After finding the feature of motif in different sick and illness. The file will output all the information of different nodes and this can be used to show all different heatmap when change the variable. It is also divided into two plot including 3 nodes motif and 4 nodes motif.
 
 7.Line plot 
-This file is divided into the one for 3 nodes and the one for 4 nodes. It is 
+This file is divided into the one for 3 nodes and the one for 4 nodes. It is will draw the line plot for the each sample patient and the x axis is the time of patient.
+What's more ,You can draw different Graph by change the toGraph function for 3 nodes motif and 4 nodes Motif.
+
+
 
 
 
