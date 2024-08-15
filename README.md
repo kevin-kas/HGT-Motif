@@ -14,5 +14,13 @@ This project use Python 3.11.9 and Matlab as the main language. And some librari
 
 This project also include some python file to deal with the problem.Here is an introduction of each file.
 1.Find motif method.
-This method use the sampling to find the 3 nodes motif and 4 nodes motif. Input the csv adjacency file and then it will output a txt file with a top20 types of germ combination. Each Germ combination will contain n numbers of 
 
+This method use the sampling to find the 3 nodes motif and 4 nodes motif. Input the csv adjacency file and then it will output a txt file with a top20 types of germ structure. Each Germ combination will contain n numbers of dataframe matrix and this shows the degree of horizontal gene transfer intensity of each germ structure.
+
+2.Result deal file.
+
+This project include 2 result deal file.Including resdeal for 3 nodes and for 4 nodes. It input the txt file made by find motif function and output a csvfile which contain the germ structure and the number of each different horizontal gene transfer intensity.
+
+3.heatmap file .
+
+This file include a nodes combination which 
