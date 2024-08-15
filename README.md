@@ -23,4 +23,10 @@ This project include 2 result deal file.Including resdeal for 3 nodes and for 4 
 
 3.heatmap file .
 
-This file include a nodes combination which 
+This file is used to input all the csv file output by the result deal file and this file will output a mean heatmap. This heatmap include the mean number of the structure which frequency is larger than 3.There are also two file for 3 nodes and 4 nodes.
+
+4.Time boxplot file
+This file should input the csvfile made by resdeal file .And it will output a boxplot ordered by time.
+
+5.Germ heatmap file
+
